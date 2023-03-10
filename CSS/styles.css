@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(58, 58, 58);
+  color: white;
+  font-size: 35px;
+}
+
+.video-parent-div {
+  margin-top: 7rem;
+  display: grid;
+  justify-content: center;
+}
+
+.video-player {border-radius: 10px;}
+
+.button-div {
+  margin: auto;
+  width: fit-content;
+}
+
+.description-div {
+  display: flex;
+  justify-content: center;
+}
+
+.guarantee-div {
+  display: flex;
+  justify-content: center;
+}
+
+.guarantee-statement {max-width: 500px}
+
+.guarantee-stamp {
+  margin-left: 100px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 185px;
+}
+
+.guarantee-words {
+  width: 145px;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.who-div, 
+.results-div, 
+.what-I-need-to-div,
+.what-I-get,
+.possible-div,
+.cant-I-hire-someone-div,
+.buy-your-app-div,
+.waist-months-div
+{
+  max-width: 700px;
+  margin: auto;
+}
+
+.input-root {
+  padding: 20px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  background-color: #1f88ff;
+  border: none;
+  cursor: pointer
+}
+
+/* modals */
+
+.full-site-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  transition: all 0.35s ease-in;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  z-index: 99;
+}
+
+.full-site-modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.modal-header .fa-times {
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in;
+}
+
+.modal-header .fa-times:hover {
+  transition: scale(1.1);
+  cursor: pointer;
+}
+
+[data-animation="zoomInOut"].full-site-modal {
+  transform: scale(0.2);
+}
+
+[data-animation="zoomInOut"].full-site-modal.is-visible {transform: none;}
