@@ -37,10 +37,16 @@ body {
   width: 185px;
 }
 
-.guarantee-words {
+.top-garrentee-words{
   width: 145px;
   margin: auto;
   margin-top: 90px;
+  text-align: center;
+}
+
+.guarantee-words {
+  width: 145px;
+  margin: auto;
 }
 
 .who-div, 
