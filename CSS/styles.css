@@ -56,6 +56,15 @@ body {
   margin: auto;
 }
 
+.meetings-iframe-container {
+  display: flex;
+  justify-content: center;
+}
+.meetings-iframe-container > iframe {
+  width: 800px;
+  height: 800px;
+}
+
 .input-root {
   padding: 20px 100px;
   margin-top: 50px;
@@ -81,6 +90,7 @@ body {
   opacity: 0;
   background-color: white;
   z-index: 99;
+  overflow-y: auto;
 }
 
 .full-site-modal.is-visible {
