@@ -62,14 +62,14 @@ body {
   margin: auto;
 }
 
-.meetings-iframe-container {
+/* .meetings-iframe-container {
   display: flex;
   justify-content: center;
 }
 .meetings-iframe-container > iframe {
   width: 800px;
   height: 800px;
-}
+} */
 
 .input-root {
   padding: 20px 100px;
