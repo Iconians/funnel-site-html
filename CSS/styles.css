@@ -6,11 +6,16 @@ body {
 
 .video-parent-div {
   margin-top: 7rem;
-  display: grid;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.video-player {border-radius: 10px;}
+.video-div {
+  border-radius: 10px;
+  height: 400px;
+}
 
 .button-div {
   margin: auto;
@@ -20,11 +25,13 @@ body {
 .description-div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .guarantee-div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .guarantee-statement {max-width: 500px}
